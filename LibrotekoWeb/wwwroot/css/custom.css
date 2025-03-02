@@ -1,0 +1,52 @@
+﻿body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: darkslategrey; /* Jaśniejszy niebieski pasujący do książek */
+    color: white;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+    .language-switcher:hover {
+        background-color: #3a7cc1;
+    }
+
+ul {
+    list-style: none; /* Usuwa punkty listy */
+    padding-left: 0;
+}
+ul {
+    display: none;
+}
+.language-switcher {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+    .language-switcher .lang-link {
+        color: white !important;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+
+        .language-switcher .lang-link:hover {
+            text-decoration: underline;
+        }
+
