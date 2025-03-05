@@ -8,19 +8,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@Localizer["WelcomeMessage"]</title>
-    <link href="~/css/site.css" rel="stylesheet" />
-    
+    <link href="~/css/style.css" rel="stylesheet" />
+   
 </head>
 <body>
     <header>
         <h1>@Localizer["WelcomeMessage"]</h1>
-        <p>@Localizer["Description"]</p>
+        <h2>@Localizer["Description"]</h2>
 
-        <div class="language-switcher">
-            <a asp-route-culture="pl" class="lang-link">PL</a> |
-            <a asp-route-culture="en" class="lang-link">EN</a> |
-            <a asp-route-culture="da" class="lang-link">DK</a>
+        <div class="language-switch">
+            <a href="?culture=pl">PL</a>
+            <a href="?culture=en">EN</a>
+            <a href="?culture=dk">DK</a>
         </div>
+
 
 
 
