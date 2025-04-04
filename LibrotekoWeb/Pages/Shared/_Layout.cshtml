@@ -1,0 +1,41 @@
+﻿@using Microsoft.Extensions.Localization
+﻿
+@inject IStringLocalizer<SharedResources> Localizer
+
+<!DOCTYPE html>
+<html lang="@System.Globalization.CultureInfo.CurrentUICulture.Name">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@Localizer["WelcomeMessage"]</title>
+    <link href="~/css/style.css" rel="stylesheet" />
+   
+</head>
+<body>
+    <header>
+        <h1>@Localizer["WelcomeMessage"]</h1>
+        <h2>@Localizer["Description"]</h2>
+
+        <div class="language-switch">
+            <a href="?culture=pl">PL</a>
+            <a href="?culture=en">EN</a>
+            <a href="?culture=dk">DK</a>
+        </div>
+
+
+
+
+    </header>
+
+    <main role="main" class="container">
+        @RenderBody() @* To jest wymagane, aby strony mogły się wyświetlać *@
+    </main>
+
+    <footer class="text-muted text-center mt-4">
+        <p>&copy; 2025 Libroteko</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+

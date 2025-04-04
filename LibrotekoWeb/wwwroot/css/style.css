@@ -1,0 +1,127 @@
+﻿/* Ogólne style strony */
+body {
+    font-family: "Georgia", "Garamond", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Nagłówek */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #4A90E2; /* Kolor pasujący do książek na regale */
+    color: white;
+}
+
+/* Tytuły */
+h1, h2 {
+    /*font-family: 'Arial', sans-serif;*/
+    font-weight: bold;
+}
+
+/* Główne sekcje */
+.info, .community, .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tekst i obrazy */
+.text {
+    max-width: 50%;
+}
+
+.image img {
+    max-width: 300px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Formularz kontaktowy */
+.contact {
+    text-align: center;
+    padding: 40px;
+    background: #4A90E2;
+    color: white;
+}
+
+    .contact form {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .contact input, .contact textarea {
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .contact button {
+        padding: 10px;
+        font-size: 18px;
+        background: #ffcc00;
+        border: none;
+        cursor: pointer;
+    }
+
+/* Stopka */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+}
+
+/* Zmiana języka */
+.language-switch {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+    .language-switch a {
+        color: white !important;
+        /*font-weight: bold;*/
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 16px;
+    }
+
+        .language-switch a:hover {
+            text-decoration: underline;
+        }
+
+/* Responsywność */
+@media screen and (max-width: 768px) {
+    .info, .community {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .language-switch {
+        justify-content: center;
+    }
+
+        .language-switch a {
+            font-size: 14px;
+            margin: 5px;
+        }
+
+    .content {
+        padding: 10px;
+    }
+}

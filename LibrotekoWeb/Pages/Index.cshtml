@@ -1,0 +1,59 @@
+﻿@page
+@using Pages
+@model IndexModel
+@{
+    ViewData["Title"] = "Strona Główna";
+}
+@using Microsoft.Extensions.Localization
+﻿
+@inject IStringLocalizer<SharedResources> Localizer
+
+<section class="info">
+
+    <div class="text">
+        <h2>@Localizer["Panel_1_1"]</h2>
+        <p>@Localizer["Panel_1_2"]</p>
+    </div>
+    <div class="image">
+        <img src="~/img/Book Lover.png" alt="Zarządzanie książkami">
+    </div>
+</section>
+
+
+
+<section class="community">
+    <div class="image">
+        <img src="~/img/Reading a Book.png" alt="Czytelnicy">
+    </div>
+    <div class="text">
+        <h2>@Localizer["Panel_2_1"]</h2>
+        <p>@Localizer["Panel_2_2"]</p>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>@Localizer["Contact_1"]</h2>
+    <p>@Localizer["Contact_2"]</p>
+
+    @if (TempData["MessageSent"] != null)
+    {
+        <p style="color: green;">@TempData["MessageSent"]</p>
+    }
+
+    <form method="post" asp-page-handler="/Index?handler=SendEmail">
+        <input type="text" name="Name" placeholder="@Localizer["Contact_3"]" required>
+        <input type="email" name="Email" placeholder="Email" required>
+        <textarea name="Message" placeholder="@Localizer["Contact_4"]" required></textarea>
+        <button type="submit" asp-page-handler="SendEmail">Wyślij</button>
+    </form>
+</section>
+
+
+
+
+
+
+
+
+
+
