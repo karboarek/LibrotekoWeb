@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Contact_1" xml:space="preserve">
-    <value>Din mening er vigtig!</value>
+    <value>Din mening er vigtig !</value>
   </data>
   <data name="Contact_2" xml:space="preserve">
     <value>Del dine kommentarer og ideer om den nye app. Vi ønsker at skabe Libroteko sammen med dig!</value>
@@ -133,7 +133,7 @@
     <value>vælg sprog</value>
   </data>
   <data name="Panel_2_1" xml:space="preserve">
-    <value>Skab et fællesskab</value>
+    <value>Skab fællesskab med Libroteko</value>
   </data>
   <data name="Panel_1_1" xml:space="preserve">
     <value>Administrer dit bibliotek</value>
@@ -149,5 +149,38 @@
   </data>
   <data name="Contact_4" xml:space="preserve">
     <value>Din mening...</value>
+  </data>
+  <data name="Panel_1_4" xml:space="preserve">
+    <value> Her er en innovativ platform, som vil revolutionere den måde, bogelskere, biblioteker og forlag administrerer deres ressourcer på. Libroteko er et værktøj, der er skabt til dem, der værdsætter litteratur, organisation og moderne teknologi.
+
+Takket være vores platform:
+
+Bogelskere kan nemt katalogisere deres samlinger, opdage nye titler og dele deres meninger med andre entusiaster.
+
+Biblioteker og forlag får et effektivt værktøj til at administrere samlinger, promovere nye udgivelser og opbygge tættere relationer med læserne.
+</value>
+  </data>
+  <data name="Panel_2_4" xml:space="preserve">
+    <value>Libroteko er mere end bare en platform til katalogisering - det er et sted, der bygger bro mellem litteraturelskere, biblioteker og forlag. Vi tror på, at bøger har magten til at forbinde mennesker, inspirere til forandring og udvide fantasien. Derfor har vi skabt et rum, hvor alle ikke kun kan opdage nye titler, men også dele deres meninger, passion for læsning og ideer med andre.
+
+            På Libroteko har du mulighed for at:
+
+            Komme med i læseklubber: virtuelle og lokale grupper af litteraturentusiaster, som deler anmeldelser, arrangerer møder og diskuterer deres yndlingsbøger sammen.
+
+            Opbygge relationer med andre læsere: finde folk med samme litterære smag og blive inspireret af deres opdagelser.
+
+            Vær med til at skabe indhold: Del dine meninger, anbefalinger og idéer, som kan være med til at udvikle vores platform.
+
+            Følg med i litterære begivenheder: Hold dig opdateret om lanceringer, forfattermøder og andre begivenheder i bogbranchen.
+
+            Libroteko er også et fællesskab, der støtter udviklingen af læsning i hele Europa. Vi skaber et rum for forlag, biblioteker og forfattere, hvor de sammen med os kan skabe bedre adgang til litteratur uden sproglige og kulturelle barrierer.
+
+            Slut dig til os, og lad os sammen skabe en ny kvalitet i litteraturens verden!</value>
+  </data>
+  <data name="MessageSent_1" xml:space="preserve">
+    <value>Din besked er blevet sendt !</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
   </data>
 </root>

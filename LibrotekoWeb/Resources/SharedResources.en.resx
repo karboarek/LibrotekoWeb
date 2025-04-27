@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Contact_1" xml:space="preserve">
-    <value>Your opinion matters!</value>
+    <value>Your opinion matters !</value>
   </data>
   <data name="Contact_2" xml:space="preserve">
     <value>Share your comments and ideas about the emerging app. We want to create Libroteko together with you!</value>
@@ -133,7 +133,7 @@
     <value>choost leangue</value>
   </data>
   <data name="Panel_2_1" xml:space="preserve">
-    <value>Create a community</value>
+    <value>Create community with Libroteko</value>
   </data>
   <data name="Panel_1_1" xml:space="preserve">
     <value>Manage your library</value>
@@ -149,5 +149,37 @@
   </data>
   <data name="Contact_4" xml:space="preserve">
     <value>Your opinion...</value>
+  </data>
+  <data name="Panel_1_4" xml:space="preserve">
+    <value> Here is an innovative platform that will revolutionise the way book lovers, libraries and publishing companies manage their resources. Libroteko is a tool created for those who value literature, organisation and modern technology.
+
+Thanks to our platform:
+
+Book lovers can easily catalogue their collections, discover new titles and share their opinions with other enthusiasts.
+
+Libraries and publishing companies gain an effective tool for managing collections, promoting new publications and building closer relationships with readers.</value>
+  </data>
+  <data name="Panel_2_4" xml:space="preserve">
+    <value>Libroteko is more than just a platform for cataloguing - it is a place that builds bridges between literature lovers, libraries and publishers. We believe that books have the power to connect people, inspire change and expand the imagination. That is why we have created a space where everyone can not only discover new titles, but also share their opinions, passion for reading and ideas with others.
+
+            At Libroteko you have the opportunity to:
+
+            Join reading clubs: virtual and local groups of literature enthusiasts who share reviews, organise meetings and discuss their favourite books together.
+
+            Build relationships with other readers: find people with similar literary tastes and be inspired by their discoveries.
+
+            Co-create content: share your opinions, recommendations and ideas that can help develop our platform.
+
+            Follow literary events: stay up to date with launches, author meetings and other book industry events.
+
+            Libroteko is also a community that supports the development of reading across Europe. We create a space for publishers, libraries and authors to build better access to literature together with us, without language and cultural barriers.
+
+            Join us and let's create a new quality in the world of literature together!</value>
+  </data>
+  <data name="MessageSent_1" xml:space="preserve">
+    <value>Your message has been sent !</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
   </data>
 </root>

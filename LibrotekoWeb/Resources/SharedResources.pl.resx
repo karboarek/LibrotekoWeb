@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Contact_1" xml:space="preserve">
-    <value>Twoja opinia ma znaczenie!</value>
+    <value>Twoja opinia ma znaczenie !</value>
   </data>
   <data name="Contact_2" xml:space="preserve">
     <value>Podziel się swoimi uwagami i pomysłami dotyczącymi powstającej aplikacji. Chcemy stworzyć Libroteko razem z Tobą!</value>
@@ -133,13 +133,19 @@
     <value>wybierz jezyk</value>
   </data>
   <data name="Panel_2_1" xml:space="preserve">
-    <value>Twórz społeczność</value>
+    <value>Twórz społeczność z Libroteko</value>
   </data>
   <data name="Panel_1_1" xml:space="preserve">
-    <value>Zarządzaj swoją biblioteką</value>
+    <value>Zarządzaj swoją biblioteką </value>
   </data>
   <data name="Panel_1_2" xml:space="preserve">
-    <value>Innowacyjna platforma stworzona z myślą o miłośnikach książek oraz firmach działających w branży wydawniczej i bibliotecznej...</value>
+    <value> Oto innowacyjna platforma, która zrewolucjonizuje sposób, w jaki miłośnicy książek, biblioteki oraz firmy wydawnicze zarządzają swoimi zasobami. Libroteko to narzędzie stworzone z myślą o tych, którzy cenią literaturę, organizację i nowoczesne technologie.
+
+Dzięki naszej platformie:
+
+Miłośnicy książek mogą łatwo katalogować swoje kolekcje, odkrywać nowe tytuły i dzielić się swoimi opiniami z innymi pasjonatami.
+
+Biblioteki i firmy wydawnicze zyskują efektywne narzędzie do zarządzania zbiorami, promowania nowych publikacji oraz budowania bliższych relacji z czytelnikami.</value>
   </data>
   <data name="WelcomeMessage" xml:space="preserve">
     <value>Libroteko</value>
@@ -149,5 +155,37 @@
   </data>
   <data name="Contact_4" xml:space="preserve">
     <value>Twoja opinia...</value>
+  </data>
+  <data name="Panel_1_4" xml:space="preserve">
+    <value> Oto innowacyjna platforma, która zrewolucjonizuje sposób, w jaki miłośnicy książek, biblioteki oraz firmy wydawnicze zarządzają swoimi zasobami. Libroteko to narzędzie stworzone z myślą o tych, którzy cenią literaturę, organizację i nowoczesne technologie.
+
+Dzięki naszej platformie:
+
+Miłośnicy książek mogą łatwo katalogować swoje kolekcje, odkrywać nowe tytuły i dzielić się swoimi opiniami z innymi pasjonatami.
+
+Biblioteki i firmy wydawnicze zyskują efektywne narzędzie do zarządzania zbiorami, promowania nowych publikacji oraz budowania bliższych relacji z czytelnikami.</value>
+  </data>
+  <data name="Panel_2_4" xml:space="preserve">
+    <value>Libroteko to coś więcej niż tylko platforma do katalogowania – to miejsce, które buduje mosty między miłośnikami literatury, bibliotekami i wydawnictwami. Wierzymy, że książki mają moc łączenia ludzi, inspirowania zmian i rozwijania wyobraźni. Dlatego stworzyliśmy przestrzeń, gdzie każdy może nie tylko odkrywać nowe tytuły, ale również dzielić się swoimi opiniami, pasją do czytania i pomysłami z innymi.
+
+            W Libroteko masz możliwość:
+
+            Dołączania do klubów czytelniczych: wirtualne i lokalne grupy pasjonatów literatury, którzy dzielą się recenzjami, organizują spotkania i wspólnie omawiają ulubione książki.
+
+            Budowania relacji z innymi czytelnikami: znajdź ludzi o podobnych gustach literackich i inspiruj się ich odkryciami.
+
+            Współtworzenia treści: dziel się swoimi opiniami, rekomendacjami i pomysłami, które mogą pomóc rozwijać naszą platformę.
+
+            Śledzenia wydarzeń literackich: bądź na bieżąco z premierami, spotkaniami autorskimi i innymi wydarzeniami z branży książkowej.
+
+            Libroteko to także społeczność, która wspiera rozwój czytelnictwa w całej Europie. Tworzymy przestrzeń dla wydawców, bibliotek i autorów, by razem z nami budowali lepszy dostęp do literatury, bez barier językowych i kulturowych.
+
+            Dołącz do nas i stwórzmy razem nową jakość w świecie literatury!</value>
+  </data>
+  <data name="MessageSent_1" xml:space="preserve">
+    <value>Twoja wiadomość została wysłana !</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Wyślij</value>
   </data>
 </root>

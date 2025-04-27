@@ -12,7 +12,7 @@
 
     <div class="text">
         <h2>@Localizer["Panel_1_1"]</h2>
-        <p>@Localizer["Panel_1_2"]</p>
+        <p>@Localizer["Panel_1_4"]</p>
     </div>
     <div class="image">
         <img src="~/img/Book Lover.png" alt="Zarządzanie książkami">
@@ -27,8 +27,8 @@
     </div>
     <div class="text">
         <h2>@Localizer["Panel_2_1"]</h2>
-        <p>@Localizer["Panel_2_2"]</p>
-    </div>
+        <p>@Localizer["Panel_2_4"]</p>
+     </div>
 </section>
 
 <section class="contact">
@@ -37,14 +37,15 @@
 
     @if (TempData["MessageSent"] != null)
     {
-        <p style="color: green;">@TempData["MessageSent"]</p>
+        <p style="color: green;">@Localizer["MessageSent_1"]</p>
+
     }
 
     <form method="post" asp-page-handler="/Index?handler=SendEmail">
         <input type="text" name="Name" placeholder="@Localizer["Contact_3"]" required>
         <input type="email" name="Email" placeholder="Email" required>
         <textarea name="Message" placeholder="@Localizer["Contact_4"]" required></textarea>
-        <button type="submit" asp-page-handler="SendEmail">Wyślij</button>
+        <button type="submit" asp-page-handler="SendEmail">@Localizer["Send"]</button>
     </form>
 </section>
 
