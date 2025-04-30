@@ -35,8 +35,52 @@ h1, h2 {
 
 /* Tekst i obrazy */
 .text {
-    max-width: 50%;
+    max-width: 80%; /* Większa szerokość dla lepszej czytelności */
+    margin: 0 auto; /* Centrowanie treści */
+    text-align: justify;
 }
+
+p {
+    font-size: 18px; /* Większa czcionka na ekranach desktopowych */
+    line-height: 1.8; /* Większa przestrzeń dla czytelności */
+    word-wrap: break-word; /* Zapobiega problemom z długimi słowami */
+}
+
+.text-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; /* Odstęp między tekstem a obrazkiem */
+}
+
+.text {
+    flex: 1; /* Tekst zajmuje maksymalną dostępną przestrzeń */
+    text-align: justify;
+}
+
+.image {
+    flex: 1; /* Obrazek zajmuje równą przestrzeń */
+    max-width: 300px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Zaokrąglenie narożników */
+}
+
+/* Dostosowanie układu na małych ekranach */
+@media screen and (max-width: 768px) {
+    .text-image-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text, .image {
+        max-width: 100%;
+    }
+}
+
 
 .image img {
     max-width: 300px;
@@ -124,4 +168,17 @@ footer {
     .content {
         padding: 10px;
     }
+
+    @media screen and (max-width: 768px) {
+        .text {
+            max-width: 95%; /* Zapewnia lepszą czytelność na telefonach */
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .info, .community {
+            padding: 20px; /* Mniejszy padding dla lepszej symetrii */
+        }
+    }
+
 }
