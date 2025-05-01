@@ -179,6 +179,11 @@ footer {
         .info, .community {
             padding: 20px; /* Mniejszy padding dla lepszej symetrii */
         }
+
+        h1 {
+            word-spacing: normal;
+        }
+
     }
 
 }
