@@ -17,8 +17,11 @@ header {
 
 /* Tytuły */
 h1, h2 {
-    /*font-family: 'Arial', sans-serif;*/
     font-weight: bold;
+    max-width: 90%; /* Zapobiega wychodzeniu nagłówków poza kontener */
+    margin: 0 auto; /* Centrowanie nagłówka */
+    text-align: center; /* Wyrównanie tekstu */
+    word-wrap: break-word; /* Zapobiega problemom z długimi słowami */
 }
 
 /* Główne sekcje */
@@ -35,38 +38,39 @@ h1, h2 {
 
 /* Tekst i obrazy */
 .text {
-    max-width: 80%; /* Większa szerokość dla lepszej czytelności */
-    margin: 0 auto; /* Centrowanie treści */
+    max-width: 80%;
+    margin: 0 auto;
     text-align: justify;
 }
 
 p {
-    font-size: 18px; /* Większa czcionka na ekranach desktopowych */
-    line-height: 1.8; /* Większa przestrzeń dla czytelności */
-    word-wrap: break-word; /* Zapobiega problemom z długimi słowami */
+    font-size: 18px;
+    line-height: 1.8;
+    word-wrap: break-word;
 }
 
+/* Obrazy */
 .text-image-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px; /* Odstęp między tekstem a obrazkiem */
+    gap: 20px;
 }
 
 .text {
-    flex: 1; /* Tekst zajmuje maksymalną dostępną przestrzeń */
+    flex: 1;
     text-align: justify;
 }
 
 .image {
-    flex: 1; /* Obrazek zajmuje równą przestrzeń */
+    flex: 1;
     max-width: 300px;
 }
 
 img {
     width: 100%;
     height: auto;
-    border-radius: 10px; /* Zaokrąglenie narożników */
+    border-radius: 10px;
 }
 
 /* Dostosowanie układu na małych ekranach */
@@ -79,16 +83,33 @@ img {
     .text, .image {
         max-width: 100%;
     }
-}
 
+    .info, .community {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
 
-.image img {
-    max-width: 300px;
-}
+    .language-switch {
+        justify-content: center;
+    }
 
-img {
-    max-width: 100%;
-    height: auto;
+        .language-switch a {
+            font-size: 14px;
+            margin: 5px;
+        }
+
+    .content {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+        word-spacing: normal;
+        letter-spacing: normal;
+        white-space: normal;
+        text-align: center;
+    }
 }
 
 /* Formularz kontaktowy */
@@ -128,64 +149,4 @@ footer {
     padding: 10px;
     background: #222;
     color: white;
-}
-
-/* Zmiana języka */
-.language-switch {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-    .language-switch a {
-        color: white !important;
-        /*font-weight: bold;*/
-        text-decoration: none;
-        margin: 0 10px;
-        font-size: 16px;
-    }
-
-        .language-switch a:hover {
-            text-decoration: underline;
-        }
-
-/* Responsywność */
-@media screen and (max-width: 768px) {
-    .info, .community {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .language-switch {
-        justify-content: center;
-    }
-
-        .language-switch a {
-            font-size: 14px;
-            margin: 5px;
-        }
-
-    .content {
-        padding: 10px;
-    }
-
-    @media screen and (max-width: 768px) {
-        .text {
-            max-width: 95%; /* Zapewnia lepszą czytelność na telefonach */
-            font-size: 16px;
-            line-height: 1.6;
-        }
-
-        .info, .community {
-            padding: 20px; /* Mniejszy padding dla lepszej symetrii */
-        }
-
-        h2 {
-            word-spacing: normal;
-            white-space: nowrap;
-            text-align: center;
-        }
-
-    }
-
 }
